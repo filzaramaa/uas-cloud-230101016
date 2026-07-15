@@ -1,0 +1,4 @@
+.env
+*.db
+main
+bukti_uas_*.txt
