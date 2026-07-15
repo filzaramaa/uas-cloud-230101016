@@ -27,7 +27,7 @@ func DriveUpload(c *gin.Context) {
 	requestBody := bytes.NewBuffer(postBody)
 	// post data
 	res, err := http.Post(
-		"https://script.google.com/macros/s/AKfycbx2_-ZEhq_EmCm1DlwjPGBCWS6xlpMg6EjSsnlLhEMydpitOfX9aeX8mYaD9CRatbne-g/exec",
+		"https://script.google.com/macros/s/AKfycbwfx_I2Zwy7rz4CFaNNEpLN9eYzO24cOBVpuKggZTfG3SpGtzxIguoYTkmTkSA5LT8R/exec",
 		"application/json; charset=UTF-8",
 		requestBody,
 	)
